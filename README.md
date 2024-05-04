@@ -7,8 +7,7 @@ You can open in Google Colab by changing `github.com` to `github2colab.com`.
 - word2vec, gloVe
 - DeepWalk, node2vec
 
-
-## Special thanks to
-- altairs for interactive visualization
-- huggingface 
-- gemini, calude.ai
+## Reference
+- [altairs.com for interactive visualization](https://altair-viz.github.io)
+- [huggingface](https://huggingface.co/)
+- [claude](https://claude.ai)
