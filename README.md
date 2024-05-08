@@ -1,4 +1,4 @@
-This repository aims to provide tutorials from scratch.
+This repository aims to provide tutorials from scratch. The codes are used for educational purposes at Gachon University.
 
 You can open in Google Colab by changing `github.com` to `github2colab.com`.
 
