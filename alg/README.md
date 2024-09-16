@@ -21,7 +21,6 @@ List of famous algorithms (todo)
 - Longest increasing subsequence
 - Edit distance
 - Seam carving in image processing
-
 - Viterbi [link](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C5/C5S3_Viterbi.html)
 - DTW
 - Bellman equation
