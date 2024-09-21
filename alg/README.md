@@ -20,7 +20,7 @@ List of famous algorithms (todo)
 - Shortest path in a graph (Floyd-Warshall)
 - Longest increasing subsequence
 - Edit distance
-- Seam carving in image processing
+- Seam carving in image processing [link](https://en.wikipedia.org/wiki/Seam_carving)
 - Viterbi [link](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C5/C5S3_Viterbi.html)
 - DTW
 - Bellman equation
