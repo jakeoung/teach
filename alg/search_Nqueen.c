@@ -3,6 +3,7 @@
 #define N 4
 
 int row[N];
+int cnt = 0;;
 
 int check(int r, int c) {
     for (int i = 0; i < r; i++) {
@@ -26,6 +27,7 @@ void print_chess() {
 void search(int r) {
     if (r == N) {
         print_chess();
+        cnt++;
         return;
     }
     for (int col = 0; col < N; col++) {
@@ -38,5 +40,7 @@ void search(int r) {
 
 int main() {
     search(0);
+
+    printf("%d\n", cnt);
     return 0;
 }
