@@ -88,9 +88,9 @@ int main() {
     printf("%d: Solution by dynamic programming with bottom-up\n", answer);
     printf("%d: table size of N*(W+1)\n\n", N*(W+1));
 
-    answer = branch_and_bound(0, W, 0);
-    printf("%d: Solution by branch and bound\n", answer);
-    printf("%d: cnt_call_bb\n\n", cnt_call_bb);
+    // answer = branch_and_bound(0, W, 0);
+    // printf("%d: Solution by branch and bound\n", answer);
+    // printf("%d: cnt_call_bb\n\n", cnt_call_bb);
 
     return 0;
 }
