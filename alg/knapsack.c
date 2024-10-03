@@ -7,7 +7,7 @@
 
 int W = 50;
 int N = 5;
-int values[] = {60,100, 120, 20, 30};
+int values[] = {60, 100, 120, 20, 30};
 int weights[] = {10, 20, 30, 10, 20};
 
 int memo[MAX_N][MAX_W+1]; // memoization table
