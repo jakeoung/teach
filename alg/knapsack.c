@@ -6,7 +6,7 @@
 #define MAX_W 100
 
 int W = 50;
-int N = 3;
+int N = 5;
 int values[] = {60,100, 120, 20, 30};
 int weights[] = {10, 20, 30, 10, 20};
 
@@ -66,9 +66,6 @@ int dp_tabulation()
     return table[N-1][W];
 }
 
-// Make a code using branch and bound approach to solve the knapsack problem
-
-
 int main() {
     int answer;
     answer = f(0, W);
@@ -87,10 +84,6 @@ int main() {
     answer = dp_tabulation();
     printf("%d: Solution by dynamic programming with bottom-up\n", answer);
     printf("%d: table size of N*(W+1)\n\n", N*(W+1));
-
-    // answer = branch_and_bound(0, W, 0);
-    // printf("%d: Solution by branch and bound\n", answer);
-    // printf("%d: cnt_call_bb\n\n", cnt_call_bb);
 
     return 0;
 }
