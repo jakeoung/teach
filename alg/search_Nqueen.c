@@ -5,7 +5,7 @@
 int row[N];
 int cnt = 0;;
 
-int check(int r, int c) {
+int promising(int r, int c) {
     for (int i = 0; i < r; i++) {
         if (row[i] == c || abs(row[i] - c) == abs(i - r)) {
             return 0;
@@ -31,7 +31,7 @@ void search(int r) {
         return;
     }
     for (int col = 0; col < N; col++) {
-        if (check(r, col)) {
+        if (promising(r, col)) {
             row[r] = col;
             search(r + 1);
         }
