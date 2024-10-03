@@ -34,7 +34,7 @@ int f(int i, float remW)
 int dp(int id, int remW) { // remW: remaining weight left
     cnt_call_dp++;
 
-    if (remW == 0 || i >= N) // base case
+    if (remW == 0 || id >= N) // base case
         return 0;
 
     int *ans = &memo[id][remW];
@@ -87,3 +87,11 @@ int main() {
 
     return 0;
 }
+
+// 220: Solution by complete search
+// 95: cnt_call_recursive
+
+// 220: Solution by dynamic programming with top-down
+// 48: cnt_call_dp
+
+// 220: Solution by dynamic progra
