@@ -1,10 +1,10 @@
 #include <stdio.h>
 #define N 4
 
-int row[N];
+int row[N]; // row[i] = j means that the queen in the i-th row is in the j-th column
 int cnt = 0;;
 
-int promising(int r, int c) {
+int promising(int r, int c) { 
     for (int i = 0; i < r; i++) {
         if (row[i] == c || abs(row[i] - c) == abs(i - r)) {
             return 0;
@@ -29,7 +29,7 @@ void search(int r) {
         cnt++;
         return;
     }
-    for (int col = 0; col < N; col++) {
+    for (int col = 0; col < N; col++) { 
         if (promising(r, col)) {
             row[r] = col;
             search(r + 1);
@@ -39,7 +39,6 @@ void search(int r) {
 
 int main() {
     search(0);
-
     printf("%d\n", cnt);
     return 0;
 }
