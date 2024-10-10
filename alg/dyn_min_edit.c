@@ -15,7 +15,7 @@ int cost_delete = 1;
 #endif
 
 // Utility function to find minimum of three numbers
-int min(int x, int y, int z) {
+int min3(int x, int y, int z) {
   return x <= y ? (x <= z ? x : z) : (y <= z ? y : z);
 }
 
@@ -69,7 +69,7 @@ int main() {
         temp = 100; // it should be changed
 
       table[i][j] =
-          min(cost_delete + table[i][j - 1], cost_insert + table[i - 1][j],
+          min3(cost_delete + table[i][j - 1], cost_insert + table[i - 1][j],
               table[i - 1][j - 1] + temp);
     }
   }

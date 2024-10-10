@@ -1,5 +1,15 @@
+# Reference (visualization or playgrounds)
 
-List of famous algorithms (todo)
+- visualize memory and stack frame in C, python pythontutor.com 
+- visualize DS and algorithms step by step visualgo.net
+- sorting animation https://www.youtube.com/watch?v=ZZuD6iUe3Pc  
+- external merge sort visualization https://valeriodiste.github.io/ExternalMergeSortVisualizer/
+- Euclidean algorithm https://demonstrations.wolfram.com/TheEuclideanAlgorithm/
+- RSA, https://www.cryptool.org/en/cto/rsa-step-by-step
+- Master theorem example code https://cs.baylor.edu/~hamerly/courses/3334_resources/master.php
+
+
+# List of famous algorithms (todo)
 
 ## Divide and conquer (dnc)
 
