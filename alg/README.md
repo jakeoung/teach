@@ -1,7 +1,7 @@
 # Reference (visualization or playgrounds)
 
-- visualize memory and stack frame in C, python pythontutor.com 
-- visualize DS and algorithms step by step visualgo.net
+- visualize memory and stack frame in C, python https://pythontutor.com 
+- visualize DS and algorithms step by step https://visualgo.net
 - sorting animation https://www.youtube.com/watch?v=ZZuD6iUe3Pc  
 - external merge sort visualization https://valeriodiste.github.io/ExternalMergeSortVisualizer/
 - Euclidean algorithm https://demonstrations.wolfram.com/TheEuclideanAlgorithm/
