@@ -1,4 +1,4 @@
-# Visualization or playgrounds
+# Reference (visualization or playgrounds)
 
 - AI by hand https://aibyhand.substack.com
 - logistic regression, neural networks https://playground.tensorflow.org  https://deeperplayground.org
