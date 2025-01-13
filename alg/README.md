@@ -8,6 +8,8 @@
 - RSA, https://www.cryptool.org/en/cto/rsa-step-by-step
 - Master theorem example code https://cs.baylor.edu/~hamerly/courses/3334_resources/master.php
 
+- CSP demo https://stanford-cs221.github.io/autumn2019/lectures/index.html#include=inference-demo.js&example=csp
+
 
 # List of famous algorithms (todo)
 
